@@ -1,0 +1,84 @@
+
+header {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: black 20px solid;
+    text-align: center;
+    font-variant-caps: small-caps;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* #top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: black 20px solid;
+    padding: 20px;
+} */
+
+h1 {
+    float: left;
+}
+
+aside {
+    float: right;
+    text-align: right;
+    border-right: gray 20px solid;
+    padding: 20px;
+    
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+article  {
+    background-image: url("WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    /* width: 70%; */
+    display: inline-block;
+    /* align-items: center;
+    justify-content:baseline; */
+    /* flex-direction: column; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+section {
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: green;
+    border-left: 20px green solid;
+    padding: 5px;
+}
+section p {
+    
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px solid gray;
+    padding-top: 10px;
+    color: gray;
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    
+}
+
+footer a {
+    color: gray;
+}
