@@ -28,7 +28,7 @@ h1 {
 aside {
     float: right;
     text-align: right;
-    border-right: gray 20px solid;
+    border-right: #6A89A7 20px solid;
     padding: 20px;
     
 }
@@ -60,8 +60,8 @@ h2 {
 section {
     background-color: lightyellow;
     border-style: solid;
-    border-color: green;
-    border-left: 20px green solid;
+    border-color: #90EE90;
+    border-left: 20px #90EE90 solid;
     padding: 5px;
 }
 section p {
